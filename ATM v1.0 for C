@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main()
+{
+    int islem;
+    int b = 100;
+    int tutar;
+    
+    printf("İşlemler\n1 Para Çekme\n2 Para Yatırma\n3 Kart İade\n");
+    printf(" \n");
+    printf("İşlem Seçiniz\n");
+    scanf("%d",&islem);
+     switch(islem)
+    {
+        case 1 :
+        printf("Para Çekme\n");
+        printf("Bakıyeniz :""%d", b);
+        printf(" \n");
+        printf("Çekilecek tutarı giriniz\n");
+        scanf("%d",&tutar);
+        if( tutar< b)
+        {
+            printf("Kalan Bakiye : " "%d",(b-tutar));
+        }
+        
+        break;
+        
+        case 2 :
+        printf("Para Yatırma\n");
+        printf("Bakıyeniz :""%d", b);
+        printf(" \n");
+        printf("Yatırılacak tutarı giriniz\n");
+        scanf("%d",&tutar);
+        {
+            printf("Yeni Bakiye : " "%d",(b+tutar));
+        }
+        
+        break;
+        case 3 :
+        printf("Kartınız iade ediliyor...");
+        
+    }
+}
