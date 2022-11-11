@@ -1,0 +1,22 @@
+print(""" HESAP MAKİNESİ
+
+      """)
+
+
+x = int(input("İlk sayıyı girin. "))
+y = int(input("İkinci sayıyı girin."))
+
+islem = input(" İşlem seçiniz. : (+),(-),(*),(/)")
+
+if islem == "+" :
+     print("Sonuç",x+y)
+elif islem == "-" :
+     print("Sonuç",x-y)
+elif islem == "*" :
+     print("Sonuç",x*y)
+elif islem == "/" :
+     print("Sonuç",(x/y))
+elif islem != ["+","*","-","/"] :
+     print("Yanlış tuşlama !")
+
+input("...............")
