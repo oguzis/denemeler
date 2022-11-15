@@ -1,22 +1,18 @@
-print(""" HESAP MAKİNESİ
-
-      """)
-
-
-x = int(input("İlk sayıyı girin. "))
-y = int(input("İkinci sayıyı girin."))
-
-islem = input(" İşlem seçiniz. : (+),(-),(*),(/)")
-
-if islem == "+" :
-     print("Sonuç",x+y)
-elif islem == "-" :
-     print("Sonuç",x-y)
-elif islem == "*" :
-     print("Sonuç",x*y)
-elif islem == "/" :
-     print("Sonuç",(x/y))
-elif islem != ["+","*","-","/"] :
-     print("Yanlış tuşlama !")
-
-input("...............")
+print("HESAP MAKİNESİ")
+index = 0
+while  index <  int(1):
+    a = int(input("ilk sayı"))
+    b = int(input("ikinci sayı"))
+    c = input("işlem")
+    
+    if  c == "+"  :
+        print("Sonuc : ",a+b)
+        
+    elif c == "-" :
+        print("Sonuc : ",a-b)
+    elif c == "*" :
+        print("Sonuc : ",a*b)
+    elif c == "/" :
+        print("Sonuc : ",a/b)
+    else :
+        print("Yanlıs tuslama yaptınız")
