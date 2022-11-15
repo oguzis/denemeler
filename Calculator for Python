@@ -1,5 +1,7 @@
 print("HESAP MAKİNESİ")
+
 index = 0
+
 while  index <  int(1):
     a = int(input("ilk sayı"))
     b = int(input("ikinci sayı"))
@@ -10,9 +12,12 @@ while  index <  int(1):
         
     elif c == "-" :
         print("Sonuc : ",a-b)
+        
     elif c == "*" :
         print("Sonuc : ",a*b)
+        
     elif c == "/" :
         print("Sonuc : ",a/b)
+        
     else :
         print("Yanlıs tuslama yaptınız")
